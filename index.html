@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visitor recorder test</title>
+    <script type="text/javascript" src="visitor-tracker.js"></script>
+    <script type="text/javascript">
+        (function() {
+            document.addEventListener('DOMContentLoaded', function() {
+                var number = 1;
+
+                document.getElementById('trigger-dynamic-content-change').addEventListener('click', function() {
+                    document.getElementById('dynamic-content').innerHTML = number++;
+                });
+            });
+        })();
+
+    </script>
+</head>
+<body>
+    <div style="height: 2000px; width: 2000px">
+        <div>Test block</div>
+        <div>
+            <textarea cols="10" rows="4"></textarea>
+            <button type="button">Click me</button>
+        </div>
+        <div>
+            <button type="button" id="trigger-dynamic-content-change">Click me</button>
+            <div id="dynamic-content"></div>
+        </div>
+    </div>
+</body>
+</html>
