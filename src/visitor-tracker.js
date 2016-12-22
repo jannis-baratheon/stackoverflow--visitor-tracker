@@ -10,7 +10,7 @@
 
     function initDocumentWatcher() {
         var handleDOMChanged = function() {
-            handleEvent({type: 'HTML_CHANGE', html: document.documentElement.outerHTML });
+            handleEvent({type: 'DOM_CHANGE', html: document.documentElement.outerHTML });
         };
 
         document.addEventListener('DOMContentLoaded', function(){
