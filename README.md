@@ -4,7 +4,7 @@ A proof of concept for WWW user tracking. Tracks user actions and outputs them t
 For the live demo [click here](https://jannis-baratheon.github.io/visitor-tracker/example/).
 
 # Usage
-Simply add it to your web page and watch the console.
+Simply link [`visitor-tracker.js`](https://github.com/jannis-baratheon/visitor-tracker/blob/master/src/visitor-tracker.js) in your web page and watch the console.
 
 # Events
 Watches for:
