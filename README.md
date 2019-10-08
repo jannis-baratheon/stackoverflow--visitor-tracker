@@ -3,6 +3,8 @@ A proof of concept for WWW user tracking. Tracks user actions and outputs them t
 
 For the live demo [click here](https://jannis-baratheon.github.io/visitor-tracker/example/).
 
+Also used as a reference for [How to create Hotjar like application? SO answer](https://stackoverflow.com/a/52553126/4494577).
+
 # Usage
 Simply link [`visitor-tracker.js`](https://github.com/jannis-baratheon/visitor-tracker/blob/master/src/visitor-tracker.js) in your web page and watch the console.
 
